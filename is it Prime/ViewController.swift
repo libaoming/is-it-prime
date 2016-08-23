@@ -28,6 +28,8 @@ class ViewController: UIViewController {
             }else {
                 self.result.text = "please input positive number"
             }
+        }else {
+            self.result.text = "please input the number..."
         }
         
         
